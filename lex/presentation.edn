@@ -1,5 +1,5 @@
 #:presentation{:lexicon 1,
-               :id "com.etzhayyim.hibiki.presentation",
+               :id "cloud.itonami.hibiki.presentation",
                :defs
                {:main
                 {:type "record",
