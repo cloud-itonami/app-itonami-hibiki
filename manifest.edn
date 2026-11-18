@@ -1,5 +1,5 @@
 {:actor/id "hibiki"
- :actor/did "did:web:etzhayyim.com:actor:hibiki"
+ :actor/did "did:web:itonami.cloud:actor:hibiki"
  :actor/glyph "響"
  :actor/display-name "響 — proposal to presentation medium"
  :actor/tier :tier-b
@@ -20,13 +20,13 @@
   {:gate/id "H7" :gate/rule "Aggregate audience is the default; targeted delivery is consent-bound."}
   {:gate/id "H8" :gate/rule "Sober, non-eschatological presentation with allowlisted audio purposes."}]
  :actor/repository-contracts
- {:ossekai {:repository "https://github.com/etzhayyim/com-etzhayyim-ossekai"
+ {:ossekai {:repository "https://github.cloud/itonami/com-itonami-ossekai"
             :revision "728a13cf4a1c4698347ab647fdd7a7238407f9ad"
             :roles #{:proposal-source :publication-carrier}}
-  :utsushie {:repository "https://github.com/etzhayyim/com-etzhayyim-utsushie"
+  :utsushie {:repository "https://github.cloud/itonami/com-itonami-utsushie"
              :revision "eb1ae5c531df0e2f2aa561260a6c4cd69e67fb6d"
              :roles #{:render-contract :anti-deepfake-pattern}}
-  :kataribe {:repository "https://github.com/etzhayyim/com-etzhayyim-kataribe"
+  :kataribe {:repository "https://github.cloud/itonami/com-itonami-kataribe"
              :revision "02cef52f032bc1333334111dc69accdc1d9a81aa"
              :roles #{:translation-contract}}}
  :actor/resources

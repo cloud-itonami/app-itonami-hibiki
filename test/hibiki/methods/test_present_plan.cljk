@@ -10,7 +10,7 @@
    "why"        "targeted dispatch is drifting above the aggregate-first floor"
    "action"     "cap mention_dispatcher × 0.5 next quarter until recovery"
    "severity"   "structural"
-   "linkUrl"    "at://did:web:ossekai.etzhayyim.com/app.bsky.feed.post/abc"})
+   "linkUrl"    "at://did:web:ossekai.itonami.cloud/app.bsky.feed.post/abc"})
 
 (defn- refuses? [f]
   (try (f) false (catch Exception e (boolean (:charter-refusal (ex-data e))))))

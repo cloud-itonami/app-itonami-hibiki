@@ -3,7 +3,7 @@
 ## Identity
 
 - **Name**: hibiki (響 — resonance)
-- **DID**: `did:web:etzhayyim.com:actor:hibiki`
+- **DID**: `did:web:itonami.cloud:actor:hibiki`
 - **ADR**: ADR-2606241600 (R0 scaffold)
 - **Sibling**: utsushie 写し絵 (ADR-2606161536) — article→video medium; hibiki is its **proposal→presentation** twin
 - **Parent**: ossekai 御節介 (ADR-2605264000) — upstream source + downstream carrier

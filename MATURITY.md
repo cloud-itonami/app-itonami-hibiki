@@ -5,11 +5,11 @@ The ossekai-proposal sibling of utsushie 写し絵 (ADR-2606161536).
 
 | Dimension | State |
 |---|---|
-| Lexicon | ✅ `lex/presentation.edn` — `com.etzhayyim.hibiki.presentation` with H1–H8 structural gates |
+| Lexicon | ✅ `lex/presentation.edn` — `cloud.itonami.hibiki.presentation` with H1–H8 structural gates |
 | Methods | ✅ `src/hibiki/methods/present_plan.cljk` — offline, pure, deterministic plan builder + R0-gated `render` |
 | Tests | ✅ `test/hibiki/methods/test_charter_gates.cljk` (8/14, lexicon conformance) + `test/hibiki/methods/test_present_plan.cljk` (7/21, builder) — `kbb -M:test` green |
 | Cells | ⛔ none yet (R1 — Pregel cell wrapping build-plan + the G8 render step) |
-| Manifest | ✅ `manifest.edn` — `did:web:etzhayyim.com:actor:hibiki`, Tier-B, H1–H8 gates, sibling map (R0 runtime=offline-method) |
+| Manifest | ✅ `manifest.edn` — `did:web:itonami.cloud:actor:hibiki`, Tier-B, H1–H8 gates, sibling map (R0 runtime=offline-method) |
 | Render | ⛔ R0-gated (H5/G8 + Murakumo-only) — `render` raises by design; reuses utsushie's render/TTS leg at R1 |
 | Publish | ⛔ R1 — carried by ossekai (member-signed H6/G7, aggregate-first H7, mute/consent honored) |
 
